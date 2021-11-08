@@ -16,7 +16,7 @@
 	limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="lineageparts_title">Axustes de crDroid</string>
+    <string name="lineageparts_title">Axustes de FlokoROM</string>
     <string name="loading">Cargando\u2026</string>
     <string name="dlg_ok">D\'acuerdu</string>
     <string name="cancel">Encaboxar</string>
@@ -94,13 +94,21 @@
     <string name="network_traffic_units_megabytes">Megabytes per segundu (MB/s)</string>
     <string name="network_traffic_disabled_clock">«Tránsitu de la rede» ta desactiváu pola mor de la posición del reló</string>
     <string name="contributors_cloud_fragment_title">Collaboradores</string>
-    <string name="contributor_info_msg"><![CDATA[<b>Nome:</b> <xliff:g id="name">%1$s</xliff:g><br/><br/>
-                 <b>Nomatu:</b> <xliff:g id="nick">%2$s</xliff:g><br/><br/>
-                 <b>Unvios:</b> <xliff:g id="commits">%3$s</xliff:g>]]></string>
-    <string name="contributions_info_msg"><![CDATA[<b>Collaboradores totales:</b> <xliff:g id="total_contributors">%1$s</xliff:g><br/><br/>
-                 <b>Unvios totales:</b> <xliff:g id="total_commits">%2$s</xliff:g><br/><br/>
-                 <b>Últimu anovamientu:</b> <xliff:g id="date">%3$s</xliff:g>]]></string>
-    <string name="anonymous_learn_more">Saber más</string>
+    <string name="contributors_cloud_loading_message">Cargando datos de collaboradores\u2026</string>
+    <string name="contributors_cloud_failed_message">Nun puen cargase los datos de los collaboradores</string>
+    <string name="contributor_info_menu">Información del collaborador</string>
+    <string name="contributions_info_menu">Información de collaboraciones</string>
+    <string name="anonymous_statistics_title">Estadístiques de FlokoROM</string>
+    <string name="anonymous_statistics_summary">Ayuda a ameyorar FlokoROM dando laude al unviu anónimu d\'estadístiques</string>
+    <string name="anonymous_statistics_warning_title">Tocante a</string>
+    <string name="anonymous_statistics_warning">Dar laude a les estadístiques de FlokoROM permitirá l\'unviu de datos non personales a
+        los desendolcadores pa facer un siguimientu d\'instalaciones úniques nos preseos. La información unviada inclúi un identificador únicu,
+        que nun compromete la to privacidá o datos personales. Los datos únviense en cada arranque.\n\nPa un exemplu de los datos que s\'unvien, calca en Previsualizar datos.</string>
+    <string name="enable_reporting_title">Habilitar unviu d\'estadístiques</string>
+    <string name="preview_data_title">Previsualizar datos</string>
+    <string name="view_stats_title">Ver estadístiques</string>
+    <string name="anonymous_learn_more">Deprendi más</string>
+    <string name="preview_id_title">ID única</string>
     <string name="preview_device_title">Preséu</string>
     <string name="preview_version_title">Versión</string>
     <string name="preview_country_title">País</string>
@@ -126,9 +134,25 @@
     <string name="wireless_charging_sounds_title">Carga ensin filos</string>
     <string name="touchscreen_gesture_single_tap_title">Un toque</string>
     <string name="touchscreen_gesture_action_do_nothing">Nun facer nada</string>
-    <string name="trust_feature_security_patches_value_new">Anovaos</string>
-    <string name="trust_feature_security_patches_value_medium">Ensin anovar hai unos meses</string>
-    <string name="trust_feature_security_patches_value_old">Ensin anovar</string>
+    <string name="touchscreen_gesture_action_flashlight">Alternar la llinterna</string>
+    <string name="touchscreen_gesture_action_camera">Abrir la cámara</string>
+    <string name="touchscreen_gesture_action_browser">Abrir el restolador</string>
+    <string name="touchscreen_gesture_action_dialer">Abrir el marcador numbéricu</string>
+    <string name="touchscreen_gesture_action_email">Ver los tos correos</string>
+    <string name="touchscreen_gesture_action_messages">Ver los tos mensaxes</string>
+    <string name="touchscreen_gesture_action_play_pause_music">Reproducir/posar música</string>
+    <string name="touchscreen_gesture_action_previous_track">Navegar a la pista musical previa</string>
+    <string name="touchscreen_gesture_action_next_track">Saltar a la pista musical de darréu</string>
+    <string name="touchscreen_gesture_action_volume_down">Baxar el volume multimedia</string>
+    <string name="touchscreen_gesture_action_volume_up">Xubir el volume multimedia</string>
+    <string name="trust_category_features">Estáu</string>
+    <string name="trust_feature_selinux">SELinux</string>
+    <string name="trust_feature_selinux_value_enforcing">Obligatoriu</string>
+    <string name="trust_feature_selinux_value_disabled">Desactivóse</string>
+    <string name="trust_feature_selinux_explain">SELinux dicta los procesos que tienen accesu a ficheros/caminos del preséu.\nEsto evita qu\'aplicaciones y servicios d\'accedan a ficheros que nun deberíen, d\'esti mou lléndase\'l potencial de los procesos maliciosos y caltener la seguranza.</string>
+    <string name="trust_feature_security_patches">Parches de seguranza d\'Android</string>
+    <string name="trust_feature_security_patches_value_base">Plataforma: %1$s\nVendedor: %2$s</string>
+    <string name="trust_feature_security_patches_explain">Los parches de seguranza llibéralos mensualmente Google cola cooperación de los fabricantes de SoC pa iguar fallos que puen aprovechase por aplicaciones malicioses pa saltar les restricciones de seguranza y causar daños permanentes al to dispositivu. Los parches disponibles dende Google aplíquense mensualmente en tolos dispositivos compatibles, pero los del códigu propietariu nun pueden aplicase más que pol fabricante del to dispositivu. Pa caltener el dispositivu seguru, asegúrate de que la compilación de FlokoROM ta siempre anovada y (si ye posible) asegúrate que la imaxe del fornidor seya la más actual de FlokoROM.</string>
     <string name="trust_feature_encryption">Cifráu</string>
     <string name="trust_feature_encryption_explain">Cifrar el preséu evita l\'accesu a los tos datos cuando\'l preséu nun arrincó Android. Esto ye importante si te lu roben darréu qu\'evita que la xente llea los mensaxes, los contautos y otra información privada ensin tener d\'introducir una contraseña.\nPa que\'l cifráu seya más efeutivu, tienes de configurar una pantalla de bloquéu segura y protexida per una contraseña.</string>
     <string name="trust_category_tools">Privacidá</string>
